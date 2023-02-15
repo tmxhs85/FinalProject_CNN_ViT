@@ -1,0 +1,22 @@
+<Image preprocessing>
+-- Mean subtraction of RGB per channel: 전부 공통적으로 적용됨  
+-- centercrop은 AlexNet, VGGNet에 적용
+--  Randomcrop 은 ViT에 적용 
+
+-- Transforms.Resize, .CenterCrop, .ToTensor, .Normalize , .RandomCrop
+
+AlexNet  
+ - resize: 256 x 256, center crop: 227, normalize: train R,G,B mean and std 
+
+VGGNet    
+ - resize:  256 x 256, center crop: 224, normalize: train R,G,B mean and std
+
+GoogLeNet
+ - resize: 224 x 224, normalize: train R,G,B mean and std
+
+ResNet 
+ - resize: 224 x 224, normalize: train R,G,B mean and std
+
+ViT
+ - resize: 256 x 256, randomcrop: 224, normalize: train R,G,B mean and std
+

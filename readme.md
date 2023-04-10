@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=FinalProject&fontSize=90" />
+
 Final project
 
 PyTorch를 이용한 CNN 계열 모델 및 Vision Transformer 논문 리뷰, 코드 구현

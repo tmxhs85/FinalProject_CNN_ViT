@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=FinalProject&fontSize=90" />
 
-# Final project
+# Final project (Computer Vision)
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat&logo=Pytorch&logoColor=white"/>
 
@@ -22,6 +22,8 @@
 **2. 논문 리뷰**
 
  + 각 모델에 대한 원 논문을 토대로 공부.
+
+<br>
  
 **3. 코드 구현**
 

@@ -1,19 +1,28 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=FinalProject&fontSize=90" />
 
-Final project
+# Final project
 
-PyTorch를 이용한 CNN 계열 모델 및 Vision Transformer 논문 리뷰, 코드 구현
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-EE4C2C?style=flat&logo=Pytorch&logoColor=white"/>
 
-<참고사항>
+**자세한 내용은 Report 디렉토리 안의 보고서를 참고**
+---
 
-- 산대특 마지막 조별 프로젝트로 팀원은 다음과 같습니다 : 박주안, 이소강, 이정규, 박거량, 손지석
+**PyTorch를 이용한 CNN 계열 모델 및 Vision Transformer 논문 리뷰, 코드 구현**
 
-- 프로젝트 주제는 "이미지 분류 연구 동향 및 코드구현- AlexNet 부터  Vision Transformer까지" 입니다. 
+**1. 모델 선정**
+ 
+ + CNN을 사용한 모델 중 뚜렷한 변화가 있는 초기 단계의 중요 모델을 선정.
+ 
+ + AlexNet, VGGNet, GoogLeNet, ResNet의 4가지 모델 선정.
+ 
+ + Computer Vision 분야에 획기적인 변화를 준 Vision Transformer까지 5가지 모델에 대한 논문 리뷰, 코드 구현을 하기로 결정.
+ 
+<br>
 
-- AlexNet 부터 Vision Trnasformer까지 논문 구현을 위해 만든 모든 코드를 "Code" 폴더에 첨부하였습니다. 
+**2. 논문 리뷰**
 
-- 보고서는 "Report" 폴더에 첨부하였습니다. 
+ + 각 모델에 대한 원 논문을 토대로 공부.
+ 
+**3. 코드 구현**
 
-- 발표 및 정리를 위한 PPT 자료는 "Presentation" 폴더에 첨부하였습니다. 
-
-- 테스트 결과로 나온 모든 그래프는 "Graphics" 폴더에 첨부하였습니다. 
+ + 논문에 나온 수치를 가지고 코드 구현을 하려고 하였고, 학습 후 평가 단계에서 결과가 잘 나오지 않을 경우 하이퍼 파라미터 튜닝 진행.
